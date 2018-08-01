@@ -1,4 +1,5 @@
-//curl -H 'Content-Type:application/json' -d "{\"name\":\"ささき\",\"score$//curl -H :リクエストヘッダを追加する。POSTのフォーマットがJSONの場合は -H$//pack$//-d はPOSTする本体を指定するオプションで、その後がデータになる。
+//curl -H 'Content-Type:application/json' -d "{\"name\":\"ささき\",\"score$//curl -H :リクエストヘッダを追加する。
+//POSTのフォーマットがJSONの場合は -H$//pack$//-d はPOSTする本体を指定するオプションで、その後がデータになる。
 //データをファイルで指定したい場合はファイル名の先頭に @ を付けて、
 //@foo.txt のように指定する。
 //ファイルではなく標準入力を指定するには @- とする。
